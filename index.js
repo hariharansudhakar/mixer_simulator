@@ -9,13 +9,17 @@ function vol_upd(){
   var x = Number(document.getElementById("need1").value);
   var y = Number(document.getElementById("need2").value);
   var vol = x+y;
+  
+  if(a>x){
+    if(b>y){
   document.getElementById("l3").innerHTML = vol+" litres";
   document.getElementById("l1").innerHTML = a-x+" litres";
   document.getElementById("l2").innerHTML = b-y+" litres";
 
   a=a-x;
   b=b-y;
-
+    }
+  }
 
 }
 
