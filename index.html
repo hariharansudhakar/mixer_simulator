@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Mixing Simulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="">
+    <hr>
+    <h1 class="heading">Mixing Simulation <i>powered</i> by Monomer Unit....!</h1>
+    <p>This site allows to visualise a simple mixing operation with two tanks and a mixture</p>
+  </div>
+  <hr>
+  <section id="info">
+    <div class="tank1">
+      <h1> Tank 1</h1>
+      <img src="s1.png" alt="">
+      <p>Component 1</p>
+      <p>TANK LEVEL</p>
+      <p id="l1">10 litres</p>
+      <label for="need1"> Outlet Volume</label>
+      <input type="number" name="need1" id="need1" />
+    </div>
+    <div class="tank2">
+      <h1> Tank 2</h1>
+      <img src="s1.png" alt="">
+      <p>Component 2</p>
+      <p>TANK LEVEL</p>
+      <p id="l2">10 litres</p>
+      <label for="need2"> Outlet Volume</label>
+      <input type="number" name="need2" id="need2" />
+    </div>
+    <div class="tank3">
+      <h1> Mixer</h1>
+      <img src="m1.png" alt="">
+      <p>Solution</p>
+      <p>TANK LEVEL</p>
+      <p id="l3">0 litres</p>
+    </div>
+  </section>
+  <br>
+  <div class="buttons">
+    <button type="button" name="button1" onclick="vol_upd()">Start Mixing</button>
+    <button type="button" name="button2" onclick="fill_tanks()">Fill Tanks </button>
+    <button type="button" name="button2" onclick="empty()">Empty Mixer</button>
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,50 @@
+body {
+  background-color: #FEDC56;
+}
+
+.heading {
+  text-align: center;
+  padding: 5px;
+  color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 5px;
+}
+
+hr {
+  border-top: 1px dashed #28334AFF;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  padding-left: 75px;
+}
+
+.tank1 {
+  float: left;
+  width: 30%;
+  height: 400px;
+}
+.tank2 {
+  float: left;
+  width: 30%;
+  height: 400px;
+}
+.tank3 {
+  float: right;
+  width: 40%;
+  height: 400px;
+}
+#info{
+  margin-bottom: 25px;
+}
+.buttons{
+  padding: 500px;
+}
