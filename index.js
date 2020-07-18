@@ -12,6 +12,7 @@ function vol_upd(){
   
   if(a>x){
     if(b>y){
+      if(vol<20){
   document.getElementById("l3").innerHTML = vol+" litres";
   document.getElementById("l1").innerHTML = a-x+" litres";
   document.getElementById("l2").innerHTML = b-y+" litres";
@@ -20,7 +21,7 @@ function vol_upd(){
   b=b-y;
     }
   }
-
+  }
 }
 
 function empty(){
