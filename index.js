@@ -17,6 +17,7 @@ function vol_upd(){
   document.getElementById("l1").innerHTML = a-x+" litres";
   document.getElementById("l2").innerHTML = b-y+" litres";
 
+  vol=vol+a+b;
   a=a-x;
   b=b-y;
     }
